@@ -16,7 +16,9 @@ public class SecondLargest {
     }
 
     public static void main(String[] args) {
+        // Initialize size variable for identifying the size of array
         int size;
+
         try (Scanner console = new Scanner(System.in)) {
             System.out.print("Enter the size of array: ");
             size = console.nextInt();
