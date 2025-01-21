@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class SecondLargest {
+
+    // Linear Search Algorithm
     public static int findSecondLargest(int[] arr){
         int secondLargest = arr[0];
         int largest = arr[0];

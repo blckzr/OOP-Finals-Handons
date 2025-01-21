@@ -20,7 +20,8 @@ public class PrimeFactor {
 
         if (num > 2)
             factors.add(num);
-    
+        
+        // Display Prime Factor with multiplication symbol
         for(int i = 0; i < factors.size(); i++){
             System.out.print(factors.get(i));
             if (i + 1 != factors.size()){
